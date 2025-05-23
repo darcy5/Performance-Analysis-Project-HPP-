@@ -22,13 +22,12 @@ The project was developed as part of the curriculum for the Advanced Computer Ar
 - **Linux Environment**: Target platform for building and testing.
 
 ## Folder Structure
-.
-├── src/ # Source code of the multithreaded application
-├── reports/ # VTune profiling reports (before and after optimization)
-├── screenshots/ # Images of analysis from VTune
-├── optimization_notes/ # Documentation on identified issues and applied fixes
-├── README.md # Project documentation (this file)
-└── Makefile # Build configuration
+- ├── src/ # Source code of the multithreaded application
+- ├── reports/ # VTune profiling reports (before and after optimization)
+- ├── screenshots/ # Images of analysis from VTune
+- ├── optimization_notes/ # Documentation on identified issues and applied fixes
+- ├── README.md # Project documentation (this file)
+- └── Makefile # Build configuration
 
 ## Setup and Usage
 
