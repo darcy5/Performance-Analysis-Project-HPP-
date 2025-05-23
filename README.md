@@ -17,8 +17,30 @@ The project was developed as part of the curriculum for the Advanced Computer Ar
 
 ## Tools and Technologies
 - **Intel VTune Profiler**: For in-depth performance analysis.
-- **C/C++**: Programming language used to develop the multithreaded application.
+- **C++**: Programming language used to develop the multithreaded application.
 - **POSIX Threads (pthreads)**: For implementing multithreading.
 - **Linux Environment**: Target platform for building and testing.
 
 ## Folder Structure
+.
+├── src/ # Source code of the multithreaded application
+├── reports/ # VTune profiling reports (before and after optimization)
+├── screenshots/ # Images of analysis from VTune
+├── optimization_notes/ # Documentation on identified issues and applied fixes
+├── README.md # Project documentation (this file)
+└── Makefile # Build configuration
+
+## Setup and Usage
+
+### Prerequisites
+- Intel VTune Profiler (installed and configured)
+- GCC or Clang compiler
+- Make utility
+- Linux OS (Ubuntu recommended)
+
+### Build the Application
+```bash
+cd src
+make
+./multithreaded_app
+
