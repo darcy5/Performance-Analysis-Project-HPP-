@@ -50,7 +50,7 @@ Each version was profiled with VTune to observe improvements in:
 - Execution Time
 
 ## Folder Structure
-'''
+```
 ├── src/ # Source code of each version
 │ ├── naive/ # Naive matrix multiplication
 │ ├── tiled/ # Basic tiling
@@ -63,8 +63,7 @@ Each version was profiled with VTune to observe improvements in:
 ├── optimization_notes/ # Notes on strategies and changes
 ├── README.md # This file
 └── Makefile # Build automation
-'''
-
+```
 ## Setup and Usage
 
 ### Prerequisites
