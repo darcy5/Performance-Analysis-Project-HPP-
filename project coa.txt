@@ -1,0 +1,18 @@
+gcc -g -O0 -static -o
+main file
+%.c
+ and all the flags to be generated
+
+-static flag
+objdump
+use build to compile
+flags 
+
+.dll files needed
+
+$ldd main  - gives which are the files that need to be dynamically linked against the standard cpp library
+
+$objdump -d main
+
+add a code which locks and unlocks so that we can see it in vtune
+
